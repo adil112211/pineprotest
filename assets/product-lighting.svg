@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+  <title id="title">Осветительные решения</title>
+  <desc id="desc">Современные светильники и прожекторы в стиле Philips</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e3f5fb" />
+      <stop offset="100%" stop-color="#f7fbfd" />
+    </linearGradient>
+    <linearGradient id="lamp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6ba8bf" />
+      <stop offset="100%" stop-color="#417686" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" rx="28" fill="url(#bg)" />
+  <g fill="#cbe7ef">
+    <rect x="48" y="56" width="384" height="12" rx="6" />
+    <rect x="76" y="92" width="328" height="10" rx="5" />
+  </g>
+  <g transform="translate(128 120)">
+    <rect x="0" y="16" width="64" height="140" rx="16" fill="#ffffff" />
+    <rect x="12" y="32" width="40" height="72" rx="12" fill="url(#lamp)" />
+    <circle cx="32" cy="132" r="18" fill="#f9f3d2" />
+  </g>
+  <g transform="translate(216 104)">
+    <rect x="0" y="0" width="80" height="192" rx="18" fill="#ffffff" />
+    <rect x="16" y="24" width="48" height="92" rx="16" fill="url(#lamp)" />
+    <rect x="20" y="132" width="40" height="40" rx="12" fill="#f9f3d2" />
+  </g>
+  <g transform="translate(320 96)">
+    <rect x="0" y="8" width="56" height="160" rx="16" fill="#ffffff" />
+    <rect x="10" y="24" width="36" height="80" rx="12" fill="url(#lamp)" />
+    <rect x="16" y="120" width="24" height="24" rx="8" fill="#f9f3d2" />
+    <path d="M28 0v-32" stroke="#6ba8bf" stroke-width="12" stroke-linecap="round" />
+  </g>
+  <g fill="#417686" opacity="0.2">
+    <circle cx="120" cy="288" r="24" />
+    <circle cx="256" cy="300" r="32" />
+    <circle cx="360" cy="282" r="20" />
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Иллюстрация умного дома</title>
+  <desc id="desc">Современный дом с системой освещения и подключёнными устройствами</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#417686" />
+      <stop offset="50%" stop-color="#639991" />
+      <stop offset="100%" stop-color="#a3dff2" />
+    </linearGradient>
+    <linearGradient id="house" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ecf6fb" />
+      <stop offset="100%" stop-color="#cbe7ef" />
+    </linearGradient>
+    <linearGradient id="roof" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f626a" />
+      <stop offset="100%" stop-color="#2b4751" />
+    </linearGradient>
+    <linearGradient id="window" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff4c1" />
+      <stop offset="100%" stop-color="#f9d772" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)" rx="36" />
+  <g opacity="0.3" stroke="#ffffff" stroke-width="2" fill="none">
+    <circle cx="520" cy="110" r="36" />
+    <circle cx="520" cy="110" r="64" />
+    <path d="M520 46v20M520 154v20M456 110h20M564 110h20" stroke-linecap="round" />
+  </g>
+  <g transform="translate(120 120)">
+    <rect x="40" y="180" width="320" height="120" rx="18" fill="#ffffff" opacity="0.15" />
+    <path d="M120 210h160v16H120zM120 240h200v16H120z" fill="#dff1f6" opacity="0.6" />
+    <g transform="translate(40 40)">
+      <path d="M160 0 0 110h44v140h232V110h44L160 0z" fill="url(#roof)" />
+      <path d="M44 110h232v140H44z" fill="url(#house)" />
+      <rect x="112" y="156" width="96" height="94" rx="8" fill="#284451" />
+      <path d="M208 156h48v60h-48zM64 156h48v60H64z" fill="url(#window)" />
+      <path d="M96 156v60M232 156v60" stroke="#f4c85a" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+      <rect x="138" y="222" width="44" height="28" rx="6" fill="#f7fafc" />
+      <rect x="124" y="80" width="72" height="52" rx="10" fill="url(#window)" />
+      <path d="M124 106h72" stroke="#f4c85a" stroke-width="6" stroke-linecap="round" opacity="0.5" />
+      <circle cx="220" cy="34" r="12" fill="#a3dff2" />
+      <circle cx="56" cy="34" r="12" fill="#a3dff2" />
+    </g>
+    <g transform="translate(360 40)" fill="#ffffff" opacity="0.85">
+      <circle cx="36" cy="120" r="36" opacity="0.08" />
+      <circle cx="36" cy="120" r="24" opacity="0.18" />
+      <circle cx="36" cy="120" r="12" />
+      <rect x="20" y="52" width="32" height="12" rx="6" />
+      <rect x="52" y="86" width="12" height="32" rx="6" />
+      <rect x="8" y="86" width="12" height="32" rx="6" />
+    </g>
+  </g>
+</svg>
